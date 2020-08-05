@@ -192,21 +192,15 @@ header {
 }
 
 #contact-send-btn {
-    background-color: grey;
+    background-color: rgb(248, 246, 246);
+    width: 20%;
 }
-#skills {
-	background: linear-gradient(-45deg, #dfccc659, #86828659, #7984886e, #4b53514d);
-	background-size: 400% 400%;
-	animation: gradient 150s ease infinite;
-    height: 100vh;
-}
-
 #contact {
-    filter: grayscale(100%);
-    background-size: cover;
-    height: 85vh;
+	background: linear-gradient(-45deg, #054886f6, #2984a5cc, #3a535fea);
+	background-size: 400% 400%;
+	animation: gradient 100s ease infinite;
+    min-height: 100vh;
 }
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -225,21 +219,24 @@ footer {
 }
 
 .social-link {
-    border: 1px solid rgb(119, 114, 114);
+    border: 1px solid rgb(206, 202, 202);
     padding: calc(10px + 1vmin);
 }
 
 .social-link:hover {
-    background-color: rgb(119, 114, 114);
+    background-color: rgb(221, 217, 217);
 }
 
 .social-link:hover i {
-    color: white;
+    color: #1D809F;
 }
 
 .social-link i {
-    color: rgb(119, 114, 114);
+    color: rgb(216, 210, 210);
     font-size: 1.5rem;
     margin-top: 2px;
 }
 
+.footer-text {
+    color: rgb(216, 210, 210);
+}
