@@ -34,7 +34,7 @@
         </ul>
 </header>
   <!-- Jumbotron -->
-  <section class="container-fluid" id="jumbotron" style="background-image: url('assets/img/bg-home.jpg');">
+  <section class="container-fluid" id="jumbotron" style="background-image: url('assets/img/bg-home.jpg'); background-attachment: fixed;">
     <div class="text-center my-auto">
       <h1 class="mb-5 mt-3 uppercase spaced-5">Megan Molloy</h1>
       <h3 class="mb-5 uppercase subheader spaced-2">Full-Stack Web Developer</h3>
@@ -47,7 +47,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-8 offset-md-2" style="color: #3E466A">
-            <h2 class="mt-5 uppercase" style="color: #3E466A;">About</h2>
+            <h2 class="mt-5 mb-4 pt-md-5 uppercase" style="color: #3E466A;">About</h2>
             <p style="color: #3E466A" class=" text-justify mt-3">
                 I specialise in using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript (jQuery)</strong> and <strong>Python</strong>. 
                 I have experience using front-end libraries such as <strong>Bootstrap</strong> and <strong>Materialize</strong> and building web applications
@@ -91,11 +91,89 @@
        </div>
       </div>
   </section>
+  <!-- Portfolio -->
+  <section class="content-section" id="projects">
+      <div class="row no-gutters">
+        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
+            <div class="card">
+                <img class="card-img-top" src="https://cdn.dribbble.com/users/65906/screenshots/4171999/web-product-sc_1x.jpg" alt="">
+                <div class="display-none">
+                    <h5 class="card-title my-2">Snackjes Webstore</h5>
+                <h6 class="card-subtitle my-1">Django, Python, AWS</h6>
+                <p class="card-text">An e-commerce webstore for a dutch snack crate shipping service.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
+            <div class="card">
+                <img class="card-img-top" src="https://www.moneynuggets.co.uk/wp-content/uploads/2018/04/plum-review-plum-app.png" alt="">
+                 <div class="display-none">
+                <h5 class="card-title my-2">Track Savings App</h5>
+                <h6 class="card-subtitle my-1">MongoDB, Flask, JavaScript</h6>
+                <p class="card-text">An app for users to track their savings towards their goals.</p>
+                 </div>
+            </div>
+        </div>
+         <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
+            <div class="card">
+                <img class="card-img-top" src="https://thedigitalprojectmanager.com/wp-content/uploads/2018/09/Scrum_Tools_MeisterTask.png" alt="">
+                 <div class="display-none">
+                    <h5 class="card-title my-2">Scrum App</h5>
+                    <h6 class="card-subtitle my-1">Django, Postgre, JavaScript</h6>
+                    <p class="card-text">An app to manage scrum projects for a team.</p>
+                 </div>
+            </div>
+        </div>
+        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
+            <div class="card">
+                 <img class="card-img-top" src="/assets/img/cairngorms-outdoors-card.png" alt="">
+                 <div class="display-none">
+                    <h5 class="card-title my-2">Cairngorms Outdoors</h5>
+                    <h6 class="card-subtitle my-1">REST API, JavaScript</h6>
+                    <p class="card-text">A website for an outdoors activities company, including OpenWeather API and ArcGIS mapping API.</p>
+                 </div>
+            </div>
+        </div>
+        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
+            <div class="card">
+                <img class="card-img-top" src="https://cdn.dribbble.com/users/65906/screenshots/4171999/web-product-sc_1x.jpg" alt="">
+                 <div class="card-text text-white text-center display-none">
+                    <h5 class="card-title my-2">Snackjes Webstore</h5>
+                    <h6 class="card-subtitle my-1">Django, Python, AWS</h6>
+                    <p class="card-text">An e-commerce webstore for a dutch snack crate shipping service.</p>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
+            <div class="card">
+                    <img class="card-img-top" src="https://www.moneynuggets.co.uk/wp-content/uploads/2018/04/plum-review-plum-app.png" alt="">
+                 <div class="card-text text-white display-none text-center">
+                    <h5 class="card-title my-2">Track Savings App</h5>
+                    <h6 class="card-subtitle my-1">MongoDB, Flask, JavaScript</h6>
+                    <p class="card-text">An app for users to track their savings towards their goals.</p>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
+                            <a href="" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+      </div>
+  </section>
    <!-- Contact Form -->
   <div id="contact" class="container-fluid">
     <div class="row">
         <div class="col-10 offset-1 col-md-6 offset-md-3">
-            <h4 class="mt-5 mb-3 text-center text-white">Let's Work Together</h4>
+            <h4 class="mt-5 mb-3 text-center text-white uppercase">Contact</h4>
             <div class="form-container">
             <form id="contact-form" class="text-center"> 
                 <div class="row contact">
@@ -137,11 +215,6 @@
                         <li class="list-inline-item">
                         <a class="social-link rounded-circle mr-3" href="https://www.linkedin.com/in/mvmolloy/" target="_blank" rel="noopener">
                             <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        </li>
-                        <li class="list-inline-item">
-                        <a class="social-link rounded-circle mr-3" href="#!" target="_blank" rel="noopener">
-                            <i class="fab fa-twitter"></i>
                         </a>
                         </li>
                         <li class="list-inline-item">
