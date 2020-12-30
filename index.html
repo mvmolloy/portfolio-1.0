@@ -38,10 +38,125 @@
     <div class="text-center my-auto">
       <h1 class="mb-5 mt-3 uppercase spaced-5">Megan Molloy</h1>
       <h3 class="mb-5 uppercase subheader spaced-2">Full-Stack Web Developer</h3>
-      <a class="js-scroll-trigger hover-gold nav-chevron mt-5 pt-5" href="#projects"><i class="fas fa-chevron-down fa-2x"></i></a>
+      <a class="js-scroll-trigger hover-gold nav-chevron mt-5 pt-5" href="#about"><i class="fas fa-chevron-down fa-2x"></i></a>
     </div>
     <div class="overlay"></div>
   </section>
+    <!-- About -->
+  <section class="container-fluid" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 offset-md-2" style="color: #3E466A">
+            <h2 class="mt-5 uppercase" style="color: #3E466A;">About</h2>
+            <p style="color: #3E466A" class=" text-justify mt-3">
+                I specialise in using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript (jQuery)</strong> and <strong>Python</strong>. 
+                I have experience using front-end libraries such as <strong>Bootstrap</strong> and <strong>Materialize</strong> and building web applications
+                using <strong>Django</strong> and <strong>Flask</strong> frameworks. I've worked with NoSQL and MySQL databases including <strong>MongoDB</strong>,
+                <strong>PostgreSQL</strong> and <strong>sqlite</strong>.
+            </p>
+            <p class="text-justify">
+                <span class="d-none d-sm-inline">I've previously built e-commerce stores and portfolio websites, and enjoy working with clients to develop clean, 
+                mobile first responsive designs.</span> I have completed a <strong>Diploma in Full-Stack Web Development</strong> with the Code Institute 
+                (Dublin) and a <strong>Higher National Certificate in Software Development</strong> through the Open University.
+            </p>
+            
+        </div>
+      </div>
+       <div class="row mt-5 d-none">
+            <div class="col-12 col-md-4 table-col bg-white" id="front-end-col">
+                <span class="skills-circle rounded-circle mx-auto mb-3">
+                    <i class="fas fa-laptop-code"></i>
+                </span>
+                <h5 class="uppercase spaced-2 text-teal">Front-End</h5>
+                <p class="text-teal">HTML, CSS, JavaScript, REST API</p>
+                <p class="text-teal">Combined with frameworks like <strong>Bootstrap</strong> and <strong>Materialize</strong> and libraries like <strong>jQuery</strong> to provide good-looking, functional code on a deadline.</p>
+            </div>
+            <div class="col-12 col-md-4 table-col bg-white">
+                <span class="skills-circle rounded-circle mx-auto mb-3">
+                    <i class="fas fa-cogs"></i>
+                </span>
+                <h5 class="uppercase spaced-2 text-teal">Back-End</h5>
+                <p class="text-teal">Python, Flask, Django</p>
+                <p class="text-teal">Powerful back-end applications wired up to a NoSQL database like <strong>MongoDB</strong> or SQL-based <strong>Postgre</strong> to provide full CRUD functionality.                
+                </p>
+            </div>
+            <div class="col-12 col-md-4 table-col bg-white" id="tools-col">
+                <span class="skills-circle rounded-circle mx-auto mb-3">
+                    <i class="fas fa-tools"></i>
+                </span>
+                <h5 class="uppercase spaced-2 text-teal">Tools</h5>
+                    <p class="text-teal">GitHub/Gitpod, IDLE, Heroku, AWS</p>
+                    <p class="text-teal">Applications built with a wide range of tools, APIs, libraries and JavaScript plugins. Version control with Git. </p>
+            </div>
+       </div>
+      </div>
+  </section>
+   <!-- Contact Form -->
+  <div id="contact" class="container-fluid">
+    <div class="row">
+        <div class="col-10 offset-1 col-md-6 offset-md-3">
+            <h4 class="mt-5 mb-3 text-center text-white">Let's Work Together</h4>
+            <div class="form-container">
+            <form id="contact-form" class="text-center"> 
+                <div class="row contact">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                    </div>
+                </div>
+                <div class="row contact">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="phone" name='phone' placeholder="Phone" required>
+                    </div>
+                </div>
+                <div class="row contact">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email1" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="row contact">
+                    <div class="form-group message">
+                        <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <input type="submit" value='Send' class="btn btn-default uppercase" id="contact-send-btn">
+            </form>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer class="footer text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-inline mb-5">
+                        <li class="list-inline-item">
+                        <a class="social-link rounded-circle mr-3" href="https://github.com/mvmolloy" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a class="social-link rounded-circle mr-3" href="https://www.linkedin.com/in/mvmolloy/" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a class="social-link rounded-circle mr-3" href="#!" target="_blank" rel="noopener">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a class="social-link rounded-circle" href="#!" target="_blank" rel="noopener">
+                            <i class="fas fa-file-download"></i>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
 
 <!-- Load Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
