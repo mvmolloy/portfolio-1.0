@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,300&family=Roboto&display=swap" rel="stylesheet">
    <link href="assets/css/style.css" rel="stylesheet">
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
 </head>
 <body id="page-top">
 <header class="container-fluid">
@@ -43,11 +46,11 @@
   </section>
     <!-- About -->
   <section class="container-fluid" id="about">
-    <div class="container">
+    <div class="container" style="color: rgb(100, 106, 133)">
       <div class="row">
-        <div class="col-12 col-md-8 offset-md-2" style="color: #3E466A">
-            <h2 class="mt-5 mb-4 pt-md-5 uppercase" style="color: #3E466A;">About</h2>
-            <p style="color: #3E466A" class=" text-justify mt-3">
+        <div class="col-12 col-md-8 offset-md-2">
+            <h2 class="mt-5 mb-4 pt-md-5 uppercase" style="color: #3E466A">About</h2>
+            <p class=" text-justify mt-3">
                 I specialise in using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript (jQuery)</strong> and <strong>Python</strong>. 
                 I have experience using front-end libraries such as <strong>Bootstrap</strong> and <strong>Materialize</strong> and building web applications
                 using <strong>Django</strong> and <strong>Flask</strong> frameworks. I've worked with NoSQL and MySQL databases including <strong>MongoDB</strong>,
@@ -68,66 +71,57 @@
     </div>
         </section>
   <!-- Portfolio -->
-  <section class="content-section pb-2" id="projects">
+  <section class="content-section py-2" id="projects">
     <div class="container">
       <div class="row no-gutters">
-        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
-            <div class="card">
-                 <img class="card-img-top" src="/assets/img/cairngorms-outdoors-card.png" alt="">
-                 <div class="display-none">
-                    <h5 class="card-title my-2">Cairngorms Outdoors</h5>
-                    <h6 class="card-subtitle my-1">REST API, JavaScript</h6>
-                    <p class="card-text">A website for an outdoors activities company, including OpenWeather API and ArcGIS mapping API.</p>
-                 </div>
+        <div class="col-12">
+            <h2 class="uppercase text-center my-5" style="color: rgb(100, 106, 133)">Recent Projects</h2>
+             </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 text-center">
+                    <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-save.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 text-center">
+                    <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-complete.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 text-center">
+                    <img src="http://track-savings-app.herokuapp.com/static/img/index-mockup-profile.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center">
+                    <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-save.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center">
+                    <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-complete.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center">
+                    <img src="http://track-savings-app.herokuapp.com/static/img/index-mockup-profile.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="d-none d-lg-block col-lg-4 mb-5 text-center">
+                    <img src="http://track-savings-app.herokuapp.com/static/img/index-mockup-dash.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="d-none d-lg-block col-lg-4 mb-5 text-center">
+                    <img src="http://track-savings-app.herokuapp.com/static/img/index-mockup-history.jpg" alt="" style="height: 32vh;">
+                </div>
+                <div class="d-none d-lg-block col-lg-4 mb-5 text-center">
+                    <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-signup.jpg" alt="" style="height: 32vh;">
+                </div>
             </div>
         </div>
-        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
-            <div class="card">
-                <img class="card-img-top" src="https://cdn.dribbble.com/users/65906/screenshots/4171999/web-product-sc_1x.jpg" alt="">
-                 <div class="card-text text-white text-center display-none">
-                    <h5 class="card-title my-2">Snackjes Webstore</h5>
-                    <h6 class="card-subtitle my-1">Django, Python, AWS</h6>
-                    <p class="card-text">An e-commerce webstore for a dutch snack crate shipping service.</p>
-                    <div class="row">
-                        <div class="col-12">
-                            <a href="" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
-                            <a href="" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
-                        </div>
-                    </div>
-                 </div>
-            </div>
-        </div>
-        <div class="col-10 offset-1 col-md-6 offset-md-0 col-xl-4">
-            <div class="card">
-                    <img class="card-img-top" src="https://www.moneynuggets.co.uk/wp-content/uploads/2018/04/plum-review-plum-app.png" alt="">
-                 <div class="card-text text-white display-none text-center">
-                    <h5 class="card-title my-2">Track Savings App</h5>
-                    <h6 class="card-subtitle my-1">MongoDB, Flask, JavaScript</h6>
-                    <p class="card-text">An app for users to track their savings towards their goals.</p>
-                    <div class="row">
-                        <div class="col-12">
-                            <a href="" class="card-link" target="_blank"><i class="fas fa-desktop desktop-icon"></i></a>
-                            <a href="" class="card-link" target="_blank"><i class="fab fa-github github-icon"></i></a>
-                        </div>
-                    </div>
-                 </div>
-            </div>
-        </div>
-        <div class="col-12 text-center pt-5 mt-5 uppercase" style="color: rgb(100, 106, 133)">
-          <p class="mb-1"><small>Contact</small></p>
+        <!-- chevron to contact section -->
+        <div class="col-12 text-center mt-4 uppercase" style="color: rgb(100, 106, 133)">
+            <p class="mb-1"><small>Contact</small></p>
             <a class="hover-gold nav-chevron-contact" href="#contact"><i class="fas fa-chevron-down fa-2x"></i></a>
         </div>
       </div>
     </div>
-    
   </section>
    <!-- Contact Form -->
   <div id="contact" class="container-fluid" style="background-image: url('assets/img/bg-footer.jpg')">
     <div class="row">
         <div class="col-10 offset-1 col-md-6 offset-md-3">
-            <h3 class="mt-5 mb-3 text-center uppercase" style="color: #3E466A">Contact</h3>
+            <h3 class="mt-5 mb-3 text-center uppercase" style="color: rgb(100, 106, 133)">Contact</h3>
             <div class="form-container">
-            <form id="contact-form" class="text-center"> 
+            <form id="contactForm" class="text-center"> 
                 <div class="row contact">
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
@@ -140,7 +134,7 @@
                 </div>
                 <div class="row contact">
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email1" name="email" placeholder="Email" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                     </div>
                 </div>
                 <div class="row contact">
@@ -148,7 +142,7 @@
                         <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" required></textarea>
                     </div>
                 </div>
-                <input type="submit" value='Send' class="btn btn-default uppercase" id="contact-send-btn">
+                <input type="submit" value="send" class="btn btn-default uppercase" id="contact-send-btn">
             </form>
             </div>
         </div>
@@ -188,6 +182,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7268da00b7.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js" crossorigin="anonymous"></script>
+    <script src="assets/js/email.js" crossorigin="anonymous"></script>
 
 </body>
 
