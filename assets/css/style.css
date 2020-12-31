@@ -16,7 +16,7 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
-.nav-chevron {
+.nav-chevron-about {
     color: #f1f1f1;
     border: 0px;
     background: none !important;
@@ -24,7 +24,20 @@ body {
     bottom: calc(2vh + 1px); 
     position: absolute;
 }
-.nav-chevron:hover {
+.nav-chevron-about:hover {
+    color: #e6dd80;
+}
+
+.nav-chevron-projects,
+.nav-chevron-contact {
+    color: rgb(100, 106, 133);
+    border: 0px;
+    background: none !important;
+    z-index: 3;
+    bottom: calc(1vh + 1px); 
+}
+.nav-chevron-projects:hover,
+.nav-chevron-contact:hover {
     color: #e6dd80;
 }
 
@@ -214,7 +227,9 @@ header {
 .form-control {
     background-color: #f9f9f9;
 }
-h3 {
+h2,
+h3,
+h4 {
     letter-spacing: 5px;
 }
 #contact-send-btn {
