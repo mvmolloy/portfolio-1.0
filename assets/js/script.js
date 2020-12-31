@@ -11,15 +11,15 @@ $(document).ready(function () {
                     $("#toggle-icon").removeClass("fa-bars").addClass("fa-times")
                 }
             }
-        });
-    $(".card").on({
-        mouseover: function(){
-            $(this).children(".card-img-top").hide();
-            $(this).children(".card-text").show();
-        }, 
-        mouseout: function(){
-            $(this).children(".card-img-top").show();
-            $(this).children(".card-text").hide();
-        }
-    })
+    });
+    // ensure toggle menu always contrasts with background  
+    $(window).on("load resize scroll", function(e){
+    if($("#toggle-icon").offset().top > (window.innerHeight)) {
+        $("#toggle-icon").removeClass("toggle-icon-light").addClass("toggle-icon-dark");
+        $(".nav-link").removeClass("nav-link-light").addClass("nav-link-dark");
+    } else {
+        $("#toggle-icon").removeClass("toggle-icon-dark").addClass("toggle-icon-light");
+        $(".nav-link").removeClass("nav-link-dark").addClass("nav-link-light");
+    }
+    });
 });

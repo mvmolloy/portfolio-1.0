@@ -97,12 +97,20 @@ header {
 }
 
 #toggle-icon {
-    color: #f1f1f1;
     background-color: none !important;
     font-size: calc(20px + 1vmin);
 }
-#toggle-icon:hover {
+.toggle-icon-light {
+    color: #f1f1f1;
+}
+.toggle-icon-dark {
+     color: rgb(100, 106, 133);
+}
+.toggle-icon-light:hover {
     color: #e6dd80;
+}
+.toggle-icon-dark:hover {
+    color: #ad9820;
 }
 
 #nav-menu {
@@ -123,13 +131,22 @@ header {
     padding: 1.5vh;
     text-decoration: none;
 }
-.nav-link a:hover {
-    color: #e6dd80;
-}
+
 .nav-link {
     font-size: calc(10px + 1vmin);
     padding: 0px;
+}
+.nav-link-light {
     color: #f1f1f1;
+}
+.nav-link-dark {
+    color: rgb(100, 106, 133);
+}
+.nav-link-light a:hover {
+    color: #e6dd80;
+}
+.nav-link-dark a:hover {
+    color: #ad9820;
 }
 
 /* Jumbotron */
