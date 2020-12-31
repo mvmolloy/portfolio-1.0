@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#contactForm").submit(function(){
-        alert("submitting")
+        $("contact-send-btn").prop('disabled', true);
         return submitForm(this);
     });
 });
@@ -18,10 +18,13 @@ emailjs.send("gmail", "portfolio", {
     function(response) {
         //contact form success
         console.log("FORM SENT", response);
+        $("#contact-send-btn").val("sent ✓");
     },   
     function(error) {
         // contact form error
         console.log("ERROR: FORM NOT SENT", error);
+        $("#contact-send-btn").val("error ✗");
+        $("#contact-send-btn").prop('disabled', false).addClass("text-danger");
     }
 );
 return false;  
