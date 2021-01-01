@@ -189,54 +189,13 @@ header {
     background-attachment: fixed;
     min-height: 100vh;
 }
-.card {
-    margin: 10px;
-    background: linear-gradient(-45deg, #1D809F, #0b4777f6);
-    border-radius: 15px;
-    height: 45vh;
-    border: 0px;
+.project-card {
+    box-shadow: 2px 2px 2px grey;
+    height: 32vh;
 }
 
-.card img {
-    border-radius: 15px;
-    height: 45vh;
-}
-/* Skills Table */
 
-.text-teal {
-    color: #1D809F;
-}
-#front-end-col {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
 
-@media (min-width: 768px) { 
-    #front-end-col {
-        border-top-right-radius: 0px;
-    }
-    #tools-col {
-        border-top-right-radius: 5px;
-    }
- }
-.table-col {
-    border: 0.5px solid #1D809F;
-}
-.skills-circle {
-  background-color: #fff;
-  color: #1D809F;
-  border: 1px solid rgb(25, 106, 131);
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  margin-top: -50px;
-}
-
-.skills-circle i {
-    font-size: 200%;
-}
 
 /* Contact */
 
