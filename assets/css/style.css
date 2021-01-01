@@ -192,6 +192,7 @@ header {
 .project-card {
     box-shadow: 2px 2px 2px grey;
     height: 32vh;
+    width: 100%;
 }
 
 
