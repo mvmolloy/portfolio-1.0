@@ -41,7 +41,7 @@ body {
     color: #ad9820;
 }
 
-.w-90 {
+.modal-img {
     height: 40vh;
     width: 100%;
     object-fit: cover;
