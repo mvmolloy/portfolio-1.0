@@ -41,6 +41,12 @@ body {
     color: #ad9820;
 }
 
+.w-90 {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
 .spaced-5 {
     letter-spacing: 5px;
 }
