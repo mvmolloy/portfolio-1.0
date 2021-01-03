@@ -47,7 +47,7 @@ body {
     height: 40vh;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 .spaced-5 {
     letter-spacing: 5px;
