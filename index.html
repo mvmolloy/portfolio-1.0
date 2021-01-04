@@ -78,31 +78,30 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4 mb-5 text-center">
-                        <img src="assets/img/task-mockup.jpg" alt="" class="project-card">
+                        <img src="assets/img/task-mockup.jpg" alt="" class="project-card" data-toggle="modal" data-target="#taskDjangoModal">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 text-center">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#adventCalenderModal">
                         <img src="assets/img/advent-mockup.jpg" alt="" class="project-card">
                     </div>
-                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center">
+                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#flaskTrackModal">
                         <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-signup.jpg" alt="" class="project-card">
                     </div>
-                    <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center">
+                    <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#flaskTrackModal">
                         <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-save.jpg" alt="" class="project-card">
                     </div>
-                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center">
+                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#cairngormsModal">
                         <img src="assets/img/cairngorms-mockup.jpg" alt="" class="project-card">
                     </div>
-                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center">
+                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#korModal">
                         <img src="assets/img/korcbd-mockup.jpg" alt="" class="project-card">
                     </div>
-
-                    <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center">
+                    <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#adventCalenderModal">
                         <img src="assets/img/advent-mockup-2.jpg" alt="" class="project-card">
                     </div>
-                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center">
+                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#flaskTrackModal">
                         <img src="http://track-savings-app.herokuapp.com/static/img/index-mockup-history.jpg" alt="" class="project-card">
                     </div>
-                    <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center">
+                    <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#taskDjangoModal">
                         <img src="assets/img/task-mockup-2.jpg" alt="" class="project-card">
                     </div>
                 </div>
@@ -114,35 +113,122 @@
             </div>
         </div>
     </section>
-    <!-- Portfolio Modal -->
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>    
-        <img src="assets/img/task-mockup.jpg" alt="" class="modal-img">
-        <h5 class="text-center uppercase mt-4 spaced-2" style="color: rgb(100, 106, 133)">Task To-Do App</h5>
-        <p class="text-muted">Django, PostgreSQL, Heroku</p>
-        <ul class="text-left text-muted my-3">
-            <li>Full CRUD functionality to add, view, edit and delete tasks</li>
-            <li>Set urgent, complete, incomplete status on tasks</li>
-            <li>Change colour theme between 12 options</li>
-            <li>Deployed to Heroku with a PostgreSQL database</li>
-        </ul>
-        <a href="https://github.com/mvmolloy/task-django" target="_blank"><i class="fab fa-github mr-1 text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
-        <a href="https://task-django.herokuapp.com/" target="_blank"><i class="fas fa-desktop text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
-      </div>
+    <!-- Portfolio Modals -->
+    <!-- Task Django -->
+    <div class="modal fade" id="taskDjangoModal" tabindex="-1" role="dialog" aria-labelledby="taskDjangoModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-body text-center">
+            <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>    
+            <img src="assets/img/task-mockup.jpg" alt="" class="modal-img">
+            <h5 class="text-center uppercase mt-4 spaced-2" style="color: rgb(100, 106, 133)">Task To-Do App</h5>
+            <p class="text-muted">Django, PostgreSQL, Heroku</p>
+            <ul class="text-left text-muted my-3">
+                <li>Full CRUD functionality to add, view, edit and delete tasks</li>
+                <li>Set urgent, complete, incomplete status on tasks</li>
+                <li>Change colour theme between 12 options</li>
+                <li>Deployed to Heroku with a PostgreSQL database</li>
+            </ul>
+            <a href="https://github.com/mvmolloy/task-django" target="_blank"><i class="fab fa-github mr-1 text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+            <a href="https://task-django.herokuapp.com/" target="_blank"><i class="fas fa-desktop text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+        </div>
+        </div>
     </div>
-  </div>
-</div>
+    </div>
+    <!-- AdventCalender -->
+    <div class="modal fade" id="adventCalenderModal" tabindex="-1" role="dialog" aria-labelledby="adventCalenderModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-body text-center">
+            <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>    
+            <img src="assets/img/advent-mockup.jpg" alt="" class="modal-img">
+            <h5 class="text-center uppercase mt-4 spaced-2" style="color: rgb(100, 106, 133)">JavaScript Advent Calender</h5>
+            <p class="text-muted">HTML, CSS, JavaScript/jQuery</p>
+            <ul class="text-left text-muted my-3">
+                <li>Each day comes with a christmas cracker joke and a related image</li>
+                <li>Daily commits combined with jQuery prevent viewing days in the future</li>
+                <li>Created for my nephew to cheer up Christmas 2020</li>
+            </ul>
+            <a href="https://github.com/mvmolloy/adventcalender" target="_blank"><i class="fab fa-github mr-1 text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+            <a href="https://mvmolloy.github.io/adventcalender/" target="_blank"><i class="fas fa-desktop text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- Cairngorms Modal -->
+    <div class="modal fade" id="cairngormsModal" tabindex="-1" role="dialog" aria-labelledby="cairngormsModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-body text-center">
+            <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>    
+            <img src="assets/img/cairngorms-mockup.jpg" alt="" class="modal-img">
+            <h5 class="text-center uppercase mt-4 spaced-2" style="color: rgb(100, 106, 133)">Cairngorms Outdoors Website</h5>
+            <p class="text-muted">HTML/CSS, jQuery, OpenWeather & ArcGIS APIs, EmailJS</p>
+            <ul class="text-left text-muted my-3">
+                <li>Outdoor Expedition company website including contact form, 3D maps and live weather updates</li>
+                <li>Plot potential expedition routes on 3D map tailored to user preferences</li>
+                <li>Takes user input to pre-populate the contact form with user details and a related message</li>
+                <li>Automatic modals use OpenWeather API to give tailor marketing messages to current weather</li>
+            </ul>
+            <a href="https://github.com/mvmolloy/milestone-project-2" target="_blank"><i class="fab fa-github mr-1 text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+            <a href="https://mvmolloy.github.io/milestone-project-2/" target="_blank"><i class="fas fa-desktop text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- KOR Modal -->
+    <div class="modal fade" id="korModal" tabindex="-1" role="dialog" aria-labelledby="korModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>    
+                <img src="assets/img/korcbd-mockup.jpg" alt="" class="modal-img">
+                <h5 class="text-center uppercase mt-4 spaced-2" style="color: rgb(100, 106, 133)">KOR E-Commerce Store</h5>
+                <p class="text-muted">Django, Stripe API, AWS, Heroku, PostgreSQL</p>
+                <ul class="text-left text-muted my-3">
+                    <li>Outdoor Expedition company website including contact form, 3D maps and live weather updates</li>
+                    <li>Plot potential expedition routes on 3D map tailored to user preferences</li>
+                    <li>Takes user input to pre-populate the contact form with user details and a related message</li>
+                    <li>Automatic modals use OpenWeather API to give tailor marketing messages to current weather</li>
+                </ul>
+                <a href="https://github.com/mvmolloy/korcbd/" target="_blank"><i class="fab fa-github mr-1 text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+                <a href="https://korcbd.herokuapp.com/" target="_blank"><i class="fas fa-desktop text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- Flask Track Modal -->
+    <div class="modal fade" id="flaskTrackModal" tabindex="-1" role="dialog" aria-labelledby="flaskTrackModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>    
+                <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-save.jpg" alt="" class="modal-img">
+                <h5 class="text-center uppercase mt-4 spaced-2" style="color: rgb(100, 106, 133)">Savings Tracker App</h5>
+                <p class="text-muted">Flask, Python, Heroku, MongoDB</p>
+                <ul class="text-left text-muted my-3">
+                    <li>Savings app for up to five simultaneous goals</li>
+                    <li>Track withdrawals, deposits, percent progress and savings history</li>
+                    <li>Generates savings statistics (days remaining, average deposits/withdrawals, forecast)</li>
+                    <li>Set goal image by URL or select one by keyword on unsplash.</li>
+                    <li>Congratulates users on completed goals.</li>
+                </ul>
+                <a href="https://github.com/mvmolloy/milestone-project-2" target="_blank"><i class="fab fa-github mr-1 text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+                <a href="https://mvmolloy.github.io/milestone-project-2/" target="_blank"><i class="fas fa-desktop text-white fa-2x border-5 rounded-circle p-2 bg-secondary"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
    <!-- Contact Form -->
     <div id="contact" class="container-fluid" style="background-image: url('assets/img/bg-footer.jpg')">
     <div class="row no-gutters">
