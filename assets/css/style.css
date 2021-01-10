@@ -186,6 +186,11 @@ header {
     background-size: cover;
     min-height: 100vh;
 }
+
+.cv-link:hover {
+    color: #ad9820;
+}
+
 /* Portfolio */
 #projects {
     background-color: #fefefe;
@@ -247,7 +252,7 @@ h4 {
     color: #6c757d;
 }
 .modal-link:hover {
-    color: #525f97;
+    color: #ad9820;
 }
 .screen-url {
     font-size: 27px;
