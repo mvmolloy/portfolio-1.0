@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <title>Megan Molloy | Full-Stack Web Developer</title>
-
+ 
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Mulish:wght@500&family=Poppins&family=Ruluko&display=swap" rel="stylesheet">
@@ -17,7 +17,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,300&family=Roboto&display=swap" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <!-- analytics -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+   <!-- analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-DM34XCW90W"></script>
         <script>
@@ -35,46 +38,49 @@
             <span class="sr-only">Toggle navigation</span>
             <i class="fas fa-bars hover-gold toggle-icon-light" id="toggle-icon"></i>
         </button>
-        <ul class="uppercase spaced display-none" id="nav-menu">
+        <ul class="uppercase spaced display-none" id="nav-menu"> 
             <li class="nav-link nav-link-light"><a href="#jumbotron">Home</a></li>
             <li class="nav-link nav-link-light"><a href="#about">About</a></li>
             <li class="nav-link nav-link-light"><a href="#projects">Projects</a></li>
             <li class="nav-link nav-link-light"><a href="#contact">Contact</a></li>
             <li class="nav-link nav-link-light"><a href="assets/pdf/cv_meganmolloy.pdf" target="_blank">CV</a></li>
         </ul>
-    </header>
-    <!-- Jumbotron -->
+    </header> 
+    <!-- Jumbotron --> 
     <section class="container-fluid" id="jumbotron">
-        <div class="text-center my-auto">
-            <h1 class="mb-5 mt-3 uppercase spaced-5">Megan Molloy</h1>
-            <h3 class="mb-5 uppercase subheader spaced-2">Full-Stack Web Developer</h3>
+        <div class="text-center my-auto py-5 px-4 text-white" id="jumbo-text">
+            <h1 class="mb-2 mb-lg-5 mt-2 uppercase spaced-5 py-2 font-os" id="jumbo-name">Megan Molloy</h1>
+            <h3 class="mb-2 mb-lg-5 uppercase subheader spaced-2 font-lato">Full Stack Developer</h3>
             <a class="hover-gold nav-chevron-about mt-5 pt-5" href="#about"><i class="fas fa-chevron-down fa-2x"></i></a>
         </div>
     </section>
     <!-- About -->
-    <section class="container-fluid" id="about">
-    <div class="container text-slate">
+    <section id="about" class="container-fluid">
+    <div class="text-dark container mt-3 mt-lg-5">
       <div class="row">
-        <div class="col-12 col-md-8 offset-md-2">
-            <h2 class="mt-5 mb-4 pt-md-5 uppercase text-dark-slate">About</h2>
-            <p class=" text-justify mt-3">
-                I specialise in using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript (jQuery)</strong> and <strong>Python</strong>. 
-                I have experience using front-end libraries such as <strong>Bootstrap</strong> and <strong>Materialize</strong> and building web applications
-                using <strong>Django</strong> and <strong>Flask</strong> frameworks. I've worked with NoSQL and MySQL databases including <strong>MongoDB</strong>,
-                <strong>PostgreSQL</strong> and <strong>sqlite</strong>.
+        <div class="col-12 col-lg-10 offset-lg-1 px-5 pb-5 mt-5" id="about-text-container">
+            <h1 class="mb-4 pt-md-5 uppercase text-dark font-os spaced-2" id="about-header">About</h1>
+            <p class="text-justify mt-3 font-lato">
+                I specialise in using <strong class="text-blue">HTML</strong>, <strong class="text-blue">CSS</strong>,
+                <strong class="text-blue">JavaScript (jQuery)</strong> and <strong class="text-blue">Python</strong>. 
+                I have experience using front-end libraries such as <strong class="text-blue">Bootstrap</strong> and 
+                <strong class="text-blue">Materialize</strong> and building web applications using <strong class="text-blue">
+                Django</strong> and <strong class="text-blue">Flask</strong> frameworks. I've worked with  NoSQL and MySQL databases
+                including <strong class="text-blue">MongoDB</strong>, <strong class="text-blue">PostgreSQL</strong> and
+                <strong class="text-blue">sqlite</strong>.
             </p>
-            <p class="text-justify mb-4">
-                <span class="d-none d-sm-inline">I've previously built e-commerce stores and portfolio websites, and enjoy working with clients to develop clean, 
-                mobile-first responsive designs.</span> I have completed a <strong>Diploma in Full-Stack Web Development</strong> with the Code Institute 
-                (Dublin) and a <strong>CertHE in Computing and IT (Software)</strong> through the Open University.
+            <p class="text-justify mb-4 font-lato">
+                <span class="d-none d-sm-inline">I've previously built e-commerce stores and portfolio websites, and enjoy 
+                working with clients to develop clean, mobile-first responsive designs.</span> I have completed a 
+                <strong class="text-blue">Diploma in Full-Stack Web Development</strong> with the Code Institute 
+                (Dublin) and a <strong class="text-blue">CertHE in Computing and IT (Software)</strong> through the Open University.
             </p>
-            <p>Want to know more? <a href="assets/pdf/cv_meganmolloy.pdf" target="_blank" class="text-dark-slate cv-link"><u>Download my CV</u></a></p>
+            <p>Want to know more? <a href="assets/pdf/cv_meganmolloy.pdf" target="_blank" class="text-blue cv-link"><u>Download my CV</u></a></p>
         </div>
       </div>
-      <div class="col-12 text-center pt-5 mt-5 uppercase text-slate">
-          <p class="mb-1"><small>Recent Projects</small></p>
-            <a class="hover-gold nav-chevron-projects" href="#projects"><i class="fas fa-chevron-down fa-2x"></i></a>
-        </div>
+    </div>
+    <div class="text-center mt-3 mt-lg-5">
+        <a href="#projects" class="btn btn-lg btn-dark font-lato uppercase px-4 px-lg-5">View Recent Projects</a>
     </div>
     </section>
     <!-- Portfolio -->

@@ -12,9 +12,34 @@ body {
     font-family: 'Raleway';
     color: #f1f1f1;
 }
+/* fonts */ 
+.font-os {
+    font-family: 'Open Sans', sans-serif;
+}
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Buttons */ 
+.btn-dark {
+    background-image: linear-gradient(to right, #012935 0%, #012935  51%, #0082b3  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.btn-dark:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+         
+
 /* Colours */
-.text-slate {
-    color: #646a85;
+.text-dark {
+    color: #012935;
+}
+.text-blue {
+    color: #0082b3;
 }
 .text-dark-slate {
     color: #3E466A;
@@ -24,11 +49,12 @@ body {
 }
 
 .nav-chevron-about {
-    color: #f1f1f1;
+    color: #fff;
+    font-size: calc(18px + 1vmin);
     border: 0px;
     background: none !important;
     z-index: 3;
-    bottom: calc(2vh + 1px); 
+    bottom: 1px;
     position: absolute;
 }
 .nav-chevron-about:hover {
@@ -105,13 +131,13 @@ header {
 
 #toggle-icon {
     background-color: none !important;
-    font-size: calc(20px + 1vmin);
+    font-size: calc(30px + 1vmin);
 }
 .toggle-icon-light {
-    color: #f1f1f1;
+    color: #fff;
 }
 .toggle-icon-dark {
-     color: rgb(100, 106, 133);
+     color: #012935;
 }
 .toggle-icon-light:hover {
     color: #e6dd80;
@@ -121,13 +147,14 @@ header {
 }
 
 #nav-menu {
-    font-size: calc(10px + 1vmin);
+    font-size: calc(12px + 1vmin);
     list-style: none;
     text-align: right;
     z-index: 2;
     right: 2vh;
     position: fixed;
     top: calc(35px + 1vmin); 
+    letter-spacing: 1px;
     margin-top: calc(10px + 1vmin);
 }
 .nav-link a {
@@ -147,7 +174,7 @@ header {
     color: #f1f1f1;
 }
 .nav-link-dark {
-    color: rgb(100, 106, 133);
+    color: #012935;
 }
 .nav-link-light a:hover {
     color: #e6dd80;
@@ -165,30 +192,42 @@ header {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background-image: url('assets/img/jumbo-bg.jpg');
+    background-image: url('../img/jumbo-bg.jpg');
     background-attachment: fixed;
-    background: linear-gradient(90deg, rgba(47, 192, 78, 0.1) 0%, rgba(231, 13, 13, 0.1) 100%);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.jumbotron h1 {
-  font-size: 3rem;
-  margin: 0;
-  padding: 0;
+#jumbo-text {
+    background-color: #012935eb;
+    border-radius: 1.5px;
+    margin-left: calc(20px + 20vw);
+    margin-right: calc(20px + 20vw);
+}
+#jumbo-name {
+    font-weight: 800;
+    font-size: calc(25px + 5vmin);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
 }
 
+.subheader {
+    font-weight: 700;
+    font-size: calc(22px + 2vmin);
+}
 
 /* About */
 #about {
-    background-color: #f1f1f1;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fff;
     min-height: 100vh;
 }
-
+#about-text-container {
+    border: 3px solid #012935;
+}
+#about-header {
+    font-size: calc(25px + 2vmin);
+}
 .cv-link:hover {
     color: #ad9820;
 }
