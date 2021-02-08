@@ -143,10 +143,10 @@ header {
      color: #0082b3;
 }
 .toggle-icon-light:hover {
-    color: #305791;
+    color: #f3a7ca;
 }
 .toggle-icon-dark:hover {
-    color: #ad9820;
+    color: #f3a7ca;
 }
 
 #nav-menu {
@@ -177,13 +177,13 @@ header {
     color: #0082b3;
 }
 .nav-link-dark {
-    color: #012935;
+    color: #0082b3;
 }
 .nav-link-light a:hover {
-    color: #305791
+    color: #f3a7ca;
 }
 .nav-link-dark a:hover {
-    color: #305791
+    color: #f3a7ca;
 }
 
 /* Jumbotron */
@@ -253,7 +253,8 @@ header {
     width: 100%;
 }
 .form-control {
-    background-color: #f9f9f9;
+    background-color: #fff;
+    border-width: 1.5px;
 }
 h2,
 h3,
