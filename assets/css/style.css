@@ -44,6 +44,9 @@ body {
 .text-heather {
     color: #c93d7f;
 }
+.text-light-muted {
+    color: #b0b9c1;
+}
 .text-dark-slate {
     color: #3E466A;
 }
@@ -61,7 +64,7 @@ body {
     position: absolute;
 }
 .nav-chevron-about:hover {
-    color: #305791;
+    color: #f3a7ca;
 }
 
 .nav-chevron-projects,
@@ -136,17 +139,17 @@ header {
     background-color: none !important;
     font-size: 1.33em;
 }
-.toggle-icon-light {
-    color: #0082b3;
+.toggle-icon-blue {
+    color: #00668c;
 }
-.toggle-icon-dark {
-     color: #0082b3;
+.toggle-icon-pink {
+     color: #d36398;
 }
-.toggle-icon-light:hover {
+.toggle-icon-pink:hover {
     color: #f3a7ca;
 }
-.toggle-icon-dark:hover {
-    color: #f3a7ca;
+.toggle-icon-blue:hover {
+    color: #0090c7;
 }
 
 #nav-menu {
@@ -168,22 +171,21 @@ header {
     padding: 1.5vh;
     text-decoration: none;
 }
-
 .nav-link {
     font-size: calc(10px + 1vmin);
     padding: 0px;
 }
-.nav-link-light {
-    color: #0082b3;
+.nav-link-pink {
+    color: #d36398;
 }
-.nav-link-dark {
-    color: #0082b3;
+.nav-link-blue {
+    color: #00668c
 }
-.nav-link-light a:hover {
+.nav-link-pink a:hover {
     color: #f3a7ca;
 }
-.nav-link-dark a:hover {
-    color: #f3a7ca;
+.nav-link-blue a:hover {
+    color: #0090c7
 }
 
 /* Jumbotron */

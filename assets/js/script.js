@@ -12,14 +12,14 @@ $(document).ready(function () {
                 }
             }
     });
-    // ensure toggle menu always contrasts with background  
+    // switch toggle colour over contact form
     $(window).on("load resize scroll", function(e){
-    if($("#toggle-icon").offset().top > (window.innerHeight)) {
-        $("#toggle-icon").removeClass("toggle-icon-light").addClass("toggle-icon-dark");
-        $(".nav-link").removeClass("nav-link-light").addClass("nav-link-dark");
-    } else {
-        $("#toggle-icon").removeClass("toggle-icon-dark").addClass("toggle-icon-light");
-        $(".nav-link").removeClass("nav-link-dark").addClass("nav-link-light");
-    }
+        if ($(this).scrollTop() >= $('#contact').position().top) {
+            $("#toggle-icon").removeClass("toggle-icon-blue").addClass("toggle-icon-pink");
+            $(".nav-link").removeClass("nav-link-blue").addClass("nav-link-pink");
+        } else {
+            $("#toggle-icon").removeClass("toggle-icon-pink").addClass("toggle-icon-blue");
+            $(".nav-link").removeClass("nav-link-pink").addClass("nav-link-blue");
+        }
     });
 });
