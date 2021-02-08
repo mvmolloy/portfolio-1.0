@@ -49,7 +49,7 @@ body {
 }
 
 .nav-chevron-about {
-    color: #fff;
+    color:#fff;
     font-size: calc(18px + 1vmin);
     border: 0px;
     background: none !important;
@@ -63,7 +63,8 @@ body {
 
 .nav-chevron-projects,
 .nav-chevron-contact {
-    color: rgb(100, 106, 133);
+    color: #0082b3;
+    font-size: calc(18px + 1vmin);
     border: 0px;
     background: none !important;
     z-index: 3;
@@ -131,13 +132,13 @@ header {
 
 #toggle-icon {
     background-color: none !important;
-    font-size: calc(30px + 1vmin);
+    font-size: 1.33em;
 }
 .toggle-icon-light {
-    color: #fff;
+    color: #0082b3;
 }
 .toggle-icon-dark {
-     color: #012935;
+     color: #0082b3;
 }
 .toggle-icon-light:hover {
     color: #e6dd80;
@@ -171,7 +172,7 @@ header {
     padding: 0px;
 }
 .nav-link-light {
-    color: #f1f1f1;
+    color: #0082b3;
 }
 .nav-link-dark {
     color: #012935;
@@ -190,23 +191,18 @@ header {
     display: table;
     width: 100%;
     height: auto;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    background-image: url('../img/jumbo-bg.jpg');
-    background-attachment: fixed;
+    padding-top: 25vh;
+    background-image: url('../img/blast-home.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #jumbo-text {
-    background-color: #012935eb;
-    border-radius: 1.5px;
-    margin-left: calc(20px + 20vw);
-    margin-right: calc(20px + 20vw);
+    border: 3px solid #fff;
 }
 #jumbo-name {
     font-weight: 800;
-    font-size: calc(25px + 5vmin);
+    font-size: calc(15px + 5vmin);
     margin-left: 0px;
     margin-right: 0px;
     padding: 0;
@@ -219,11 +215,14 @@ header {
 
 /* About */
 #about {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+    background-image: url("../img/blue-blast.png");
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 #about-text-container {
-    border: 3px solid #012935;
+    border: 3px solid #0082b3;
+    background-color: #fff;
 }
 #about-header {
     font-size: calc(25px + 2vmin);
