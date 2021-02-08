@@ -54,10 +54,17 @@ body {
     background-color: #00668c;
     color: #fff;
 }
+.btn-light-blue {
+    background-color: #0082b3;
+    color: #fff;
+}
+.btn-light-blue:hover {
+    background-color: #00668c;
+    color: #fff;
+}
 .btn-blue:hover {
     background-color: #0082b3;
     color: #fff;
-
 }
 
 .nav-chevron-about {
