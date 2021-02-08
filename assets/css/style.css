@@ -50,20 +50,20 @@ body {
 .text-dark-slate {
     color: #3E466A;
 }
+.btn-heather {
+    background-color: #bda0bd;
+    color: #fff;
+}
 .btn-blue {
-    background-color: #00668c;
-    color: #fff;
-}
-.btn-light-blue {
-    background-color: #0082b3;
-    color: #fff;
-}
-.btn-light-blue:hover {
-    background-color: #00668c;
+    background-color: #66b2c1;
     color: #fff;
 }
 .btn-blue:hover {
     background-color: #0082b3;
+    color: #fff;
+}
+.btn-heather:hover {
+    background-color: #c93d7f;
     color: #fff;
 }
 
