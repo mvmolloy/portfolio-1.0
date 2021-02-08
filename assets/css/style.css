@@ -50,20 +50,22 @@ body {
 .text-dark-slate {
     color: #3E466A;
 }
-.btn-heather {
-    background-color: #c93d7ece;
+.btn-blue-outline {
+    color: #0083b3;
+    border: 1px solid #0083b3;
+    letter-spacing: 2px;
+}
+.btn-blue-outline:hover {
+    background-color: #39b4e0;
     color: #fff;
 }
 .btn-blue {
-    background-color: #0082b3ce;
+    background-color: #0083b3;
     color: #fff;
+    letter-spacing: 2px;
 }
 .btn-blue:hover {
-    background-color: #0082b3;
-    color: #fff;
-}
-.btn-heather:hover {
-    background-color: #c93d7f;
+    background-color: #39b4e0;
     color: #fff;
 }
 
