@@ -41,6 +41,9 @@ body {
 .text-blue {
     color: #0082b3;
 }
+.text-heather {
+    color: #c93d7f;
+}
 .text-dark-slate {
     color: #3E466A;
 }
@@ -258,16 +261,20 @@ h4 {
     letter-spacing: 5px;
 }
 #contact-send-btn {
-    background-color: #f1f1f1;
+    background-color: #fff;
     letter-spacing: 2px;
+    color: #c93d7f;
 }
 #contact-send-btn:hover {
-    background-color: #305791;
+    background-color: #f3a7ca;
+    color: #fff;
 }
-#contact {
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+.form-control {
+    border-color: #928391;
+}
+.form-control:focus {
+    border-color: #ba37af;
+    box-shadow: 0 0 0 0.2rem rgb(182 139 205 / 25%);
 }
 
 /* Project Cards & Modals */
@@ -298,6 +305,26 @@ h4 {
     font-size: 27px;
 }
 
+/* Contact */
+#contact {
+    background-color: rgb(255, 255, 255);
+    background-image: url("../img/contact-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+}
+@media (max-width: 576px) { 
+  #contact {
+    background-size: cover;
+    }  
+ }
+
+@media (min-width: 576px) { 
+  #contact {
+    background-size: contain;
+    }  
+ }
+ 
 /* Footer */
 footer {
     padding-top: 20px;
@@ -308,7 +335,7 @@ footer {
 }
 
 .social-link:hover i {
-    color: #305791;
+    color:#f3a7ca;
 }
 
 .social-link i {
