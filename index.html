@@ -64,8 +64,8 @@
     <section id="about" class="container-fluid pt-2">
     <div class="text-dark container pt-2">
       <div class="row">
-        <div class="col-10 offset-1 px-5 pb-5 mt-5" id="about-text-container">
-            <h1 class="mb-4 pt-2 pt-md-5 uppercase text-dark font-os spaced-2" id="about-header">About</h1>
+        <div class="col-10 offset-1 px-5 pb-5 my-5" id="about-text-container">
+            <h1 class="mb-4 pt-5 uppercase text-dark font-os spaced-2" id="about-header">About</h1>
             <p class="text-justify mt-3 font-lato">
                 I specialise in using <strong class="text-blue">HTML</strong>, <strong class="text-blue">CSS</strong>,
                 <strong class="text-blue">JavaScript (jQuery)</strong> and <strong class="text-blue">Python</strong>. 
@@ -85,51 +85,93 @@
         </div>
       </div>
     </div>
-    <div class="text-center mt-5">
-        <a class="hover-gold nav-chevron-projects mt-xl-5" href="#projects"><i class="fas fa-chevron-down fa-lg"></i></a>
-           </div>
     </section>
     <!-- Portfolio -->
-    <section class="content-section py-2" id="projects">
-        <div class="container">
-        <div class="row no-gutters" style="position: relative;">
-            <div class="col-12">
-                <h2 class="uppercase text-center my-5 text-blue font-os">Recent Projects</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 text-center">
-                        <img src="assets/img/task-mockup.jpg" alt="" class="project-card" data-toggle="modal" data-target="#taskDjangoModal">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#adventCalenderModal">
-                        <img src="assets/img/advent-mockup.jpg" alt="" class="project-card">
-                    </div>
-                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#flaskTrackModal">
-                        <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-signup.jpg" alt="" class="project-card">
-                    </div>
-                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#cgrtModal">
-                        <img src="assets/img/cgrt-mockup.jpg" alt="" class="project-card">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#cairngormsModal">
-                        <img src="assets/img/cairngorms-mockup.jpg" alt="" class="project-card">
-                    </div>
-                    <div class="col-12 col-md-6 d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#korModal">
-                        <img src="assets/img/korcbd-mockup.jpg" alt="" class="project-card">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#flaskTrackModal">
-                        <img src="https://track-savings-app.herokuapp.com/static/img/index-mockup-save.jpg" alt="" class="project-card">
-                    </div>
-                    <div class="d-none d-md-block col-md-6 col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#adventCalenderModal">
-                        <img src="assets/img/advent-mockup-2.jpg" alt="" class="project-card">
-                    </div>
-                    <div class="d-none d-lg-block col-lg-4 mb-5 text-center" data-toggle="modal" data-target="#taskDjangoModal">
-                        <img src="assets/img/task-mockup-2.jpg" alt="" class="project-card">
+    <section class="content-section py-2 container" id="projects">
+        <div class="row no-gutters">
+            <!-- CGRT Card -->
+            <div class="col-12 col-md-6 col-xl-4 mb-5 px-5 my-3 card-col">
+                <div class="card project-card rounded-0 border-0 text-muted text-center mx-auto" data-toggle="modal" data-target="#cgrtModal" >
+                    <img class="card-img-top rounded-0 project-card-img" src="assets/img/cgrt-mockup.jpg" data-toggle="modal" data-target="#cgrtModal">
+                    <div class="card-body">
+                        <h5 class="card-title card-link uppercase">Covid-19 Tracker</h5>
+                        <p><small>Bootstrap, jQuery, OxCGRT</small></p>
+                        <p class="card-link" data-toggle="modal" data-target="#cgrtModal"><u>Project Details</u></p>
+                        <hr>
+                        <a href="https://github.com/mvmolloy/task-django" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
+                        <a href="https://mvmolloy.github.io/global-covid-response/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
                     </div>
                 </div>
             </div>
-            <!-- chevron to contact section -->
-            <div class="col-12 text-center mt-4 uppercase text-blue" style="position: absoulte; bottom: 0;">
-                <p class="mb-1"><small>Contact</small></p>
-                <a class="hover-gold nav-chevron-contact" href="#contact"><i class="fas fa-chevron-down"></i></a>
+            <!-- Django Task App -->
+            <div class="col-12 col-md-6 col-xl-4 mb-5 my-3 px-5 card-col" >
+                <div class="card project-card rounded-0 border-0 text-muted text-center mx-auto">
+                    <img class="card-img-top rounded-0 project-card-img" src="assets/img/task-mockup.jpg" alt="Task Django Mockup" data-toggle="modal" data-target="#taskDjangoModal">
+                    <div class="card-body">
+                        <h5 class="card-title card-link">Django Task App</h5>
+                        <p><small>Django, PostgreSQL, Heroku</small></p>
+                        <p class="card-link" data-toggle="modal" data-target="#taskDjangoModal"><u>Project Details</u></p>
+                        <hr>
+                        <a href="https://github.com/mvmolloy/task-django" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
+                        <a href="https://task-django.herokuapp.com/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- KOR DJANGO STORE CARD -->
+            <div class="col-12 col-md-6 col-xl-4 mb-5 px-5 my-3 card-col">
+                <div class="card project-card rounded-0 border-0 text-muted text-center mx-auto">
+                    <img class="card-img-top rounded-0 project-card-img" src="assets/img/korcbd-mockup.jpg" data-toggle="modal" data-target="#korModal">
+                    <div class="card-body">
+                        <h5 class="card-title card-link uppercase">KOR Store</h5>
+                        <p><small>Django, Python, AWS, Stripe</small></p>
+                        <p class="card-link"><u>Project Details</u></p>
+                        <hr>
+                        <a href="https://github.com/mvmolloy/korcbd/" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
+                        <a href="https://korcbd.herokuapp.com/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Flask Savings Tracker-->
+            <div class="col-12 col-md-6 col-xl-4 mb-5 px-5 my-3 card-col">
+                <div class="card project-card rounded-0 border-0 text-muted text-center mx-auto" data-toggle="modal" data-target="#flaskTrackModal">
+                    <img class="card-img-top rounded-0 project-card-img" src="https://track-savings-app.herokuapp.com/static/img/index-mockup-signup.jpg" data-toggle="modal" data-target="#flaskTrackModal">
+                    <div class="card-body">
+                        <h6 class="card-title card-link uppercase">Savings Tracker</h6>
+                        <p><small>Flask, Python, MongoDB</small></p>
+                        <p class="card-link"><u>Project Details</u></p>
+                        <hr>
+                        <a href="https://github.com/mvmol loy/task-django" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
+                        <a href="https://task-django.herokuapp.com/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Advent Calender Card-->
+            <div class="col-12 col-md-6 col-xl-4 mb-5 px-5 my-3 card-col">
+                <div class="card project-card rounded-0 border-0 text-muted text-center mx-auto" data-target="#adventCalenderModal">
+                    <img class="card-img-top rounded-0 project-card-img" src="assets/img/advent-mockup.jpg" alt="Advent Calendar Mockup" data-toggle="modal" data-target="#adventCalenderModal">
+                    <div class="card-body">
+                        <h6 class="card-title card-link uppercase">Advent Calendar</h6>
+                        <p><small>Bootstrap, jQuery, HTML, CSS</small></p>
+                        <p class="card-link" data-toggle="modal"><u>Project Details</u></p>
+                        <hr>
+                        <a href="https://github.com/mvmolloy/adventcalendar/" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
+                        <a href="https://mvmolloy.github.io/adventcalendar/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- CO Portfolio Card-->
+            <div class="col-12 col-md-6 col-xl-4 mb-5 px-5 my-3 card-col">
+                <div class="card project-card rounded-0 border-0 text-muted text-center mx-auto" >
+                    <img class="card-img-top rounded-0 project-card-img" src="assets/img/cairngorms-mockup.jpg" data-toggle="modal" data-target="#cairngormsModal">
+                    <div class="card-body">
+                        <h6 class="card-title card-link uppercase">CO Portfolio</h6>
+                        <p><small>jQuery, EmailJS, ArcGIS</small></p>
+                        <p class="card-link"><u>Project Details</u></p>
+                        <hr>
+                        <a href="https://github.com/mvmolloy/milestone-project-2/" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
+                        <a href="https://mvmolloy.github.io/milestone-project-2/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -173,8 +215,8 @@
                         <li>Daily commits combined with jQuery prevent viewing days in the future</li>
                         <li>Created for my nephew to cheer up Christmas 2020</li>
                     </ul>
-                    <a href="https://github.com/mvmolloy/adventcalender" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
-                    <a href="https://mvmolloy.github.io/adventcalender/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
+                    <a href="https://github.com/mvmolloy/adventcalendar" target="_blank"><i class="fab fa-github mr-2 fa-2x modal-link"></i></a>
+                    <a href="https://mvmolloy.github.io/adventcalendar/" target="_blank"><i class="fas fa-desktop screen-url modal-link"></i></a>
                 </div>
             </div>
         </div>
