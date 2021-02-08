@@ -58,7 +58,7 @@ body {
     position: absolute;
 }
 .nav-chevron-about:hover {
-    color: #e6dd80;
+    color: #305791;
 }
 
 .nav-chevron-projects,
@@ -68,7 +68,6 @@ body {
     border: 0px;
     background: none !important;
     z-index: 3;
-    bottom: calc(1vh + 1px); 
 }
 .nav-chevron-projects:hover,
 .nav-chevron-contact:hover {
@@ -141,7 +140,7 @@ header {
      color: #0082b3;
 }
 .toggle-icon-light:hover {
-    color: #e6dd80;
+    color: #305791;
 }
 .toggle-icon-dark:hover {
     color: #ad9820;
@@ -178,10 +177,10 @@ header {
     color: #012935;
 }
 .nav-link-light a:hover {
-    color: #e6dd80;
+    color: #305791
 }
 .nav-link-dark a:hover {
-    color: #ad9820;
+    color: #305791
 }
 
 /* Jumbotron */
@@ -263,7 +262,7 @@ h4 {
     letter-spacing: 2px;
 }
 #contact-send-btn:hover {
-    background-color: #e6dd80;
+    background-color: #305791;
 }
 #contact {
     background-repeat: no-repeat;
@@ -309,7 +308,7 @@ footer {
 }
 
 .social-link:hover i {
-    color: #e6dd80;
+    color: #305791;
 }
 
 .social-link i {
