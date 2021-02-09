@@ -32,17 +32,22 @@ body {
     text-decoration: none;
 }
 
-         
+.vh-100 {
+    height: 100vh;
+}   
 
 /* Colours */
-.text-dark {
-    color: #012935;
+.text-dark-blue {
+    color: #03465a;
 }
 .text-blue {
     color: #0082b3;
 }
+.text-blue-ts {
+    color: #0082b3eb;
+}
 .text-heather {
-    color: #c93d7f;
+    color: #c93d7fbf;
 }
 .text-light-muted {
     color: #b0b9c1;
@@ -79,7 +84,7 @@ body {
     position: absolute;
 }
 .nav-chevron-about:hover {
-    color: #f3a7ca;
+    color: #b6dfee;
 }
 
 .nav-chevron-projects,
@@ -207,10 +212,8 @@ header {
 #jumbotron {
     min-height: 100vh;
     position: relative;
-    display: table;
     width: 100%;
     height: auto;
-    padding-top: 25vh;
     background-image: url('../img/blast-home.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -238,12 +241,9 @@ header {
     background-image: url("../img/blue-blast.png");
     background-repeat: no-repeat;
     background-size: contain;
-}
-@media (min-width: 576px) { 
-  #about {
     min-height: 100vh;
-    }  
- }
+    border-top: 5px solid #0083b328;
+}
 #about-text-container {
     border: 3px solid #0082b3;
     background-color: #fff;
@@ -263,6 +263,7 @@ header {
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
+    border-top: 5px solid #0083b328;
 }
 
 
@@ -352,7 +353,7 @@ h4 {
     background-repeat: no-repeat;
     background-position: bottom;
     min-height: 100vh;
-    border-top: 5px solid #d36398;
+    border-top: 5px solid #d3639828;
 }
 @media (max-width: 576px) { 
   #contact {
