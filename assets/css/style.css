@@ -216,7 +216,7 @@ header {
 }
 
 /* Jumbotron */
-#jumbotron {
+#home {
     min-height: 100vh;
     position: relative;
     width: 100%;
